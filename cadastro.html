@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+
+        form {
+            text-align: center;
+            }
+   
+        p {
+            margin: 10px 0;
+            }
+        body {
+             background: pink;
+             font-family: Arial, sans-serif;
+            font-size: 12px;
+            }
+        h1 {
+            text-align: center;
+            color: #a15d71;
+            font-size: 24px;
+            }
+        button {
+             background-color: #fffffe; 
+             color: rgb(8, 8, 8);
+             padding: 10px 20px;
+             border: none;
+             border-radius: 4px;
+             cursor: pointer;
+             }
+   
+       </style>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form method="post" action="#">
+        <fieldset>
+            <legend>Dados</legend>
+            
+
+          <label for="nomeUser">Nome:</label><br>
+          <input id="nomeUser” name="nomeUser" type="text"  placeholder="Nome completo" size="30" required><br><br>
+
+           <label for="emailPessoa">Email:</label><br>
+           <input id="emailPessoa” name="emailPessoa" type="email" required><br><br>
+ 
+           <label for="senhaUser">Senha:</label><br>
+           <input id="senhaUser" name="senhaUser" type="password" required><br><br>
+
+           <label for="confirmarSenhaUser">Confirme a senha:
+           </label><br>
+           <input id=”confirmarSenhaUser” name="confirmarSenhaUser"
+           type="password"required><br><br>
+
+            
+            <label for="perfilUser">Perfil:</label>
+            <select name="perfilUser">
+                <option value="professor">Professor</option>
+                <option value="aluno">Aluno</option>
+                <option value="outro">Outro</option>
+            </select required><br><br>
+            
+            <button type="button">
+                Cadastrar 
+            </button>
+
+                    </fieldset><br>
+
+        </body>
+</html>
