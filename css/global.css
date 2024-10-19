@@ -9,6 +9,7 @@ body {
     background: rgb(245, 218, 240);
     font-family: Arial, sans-serif;
     font-size: 16px;
+    align-items: center;
     }
 h1 {
     text-align: center;
