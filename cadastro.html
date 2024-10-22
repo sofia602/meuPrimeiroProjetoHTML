@@ -9,38 +9,48 @@
     <link rel="stylesheet" href="./css/global.css">
 </head>
 <body>
+    <p>
     <h1>Cadastro</h1>
+    </p>
     <form method="post" action="./index.html">
         <fieldset>
             <legend>Dados</legend>
+        <p>
           <label for="nomeUser">Nome:</label><br>
-          <input id="nomeUser” name="nomeUser" type="text"  placeholder="Nome completo" size="30" required><br><br>
-
+          <input id="nomeUser” name="nomeUser" type="text"  placeholder="Nome completo" size="30" required>
+        </p>
+        <p>
            <label for="emailUser">Email:</label><br>
-           <input id="emailUser” name="emailPessoa" type="email" required><br><br>
- 
+           <input id="emailUser” name="emailPessoa" type="email" required>
+        </p>
+        <p>
            <label for="senhaUser">Senha:</label><br>
-           <input id="senhaUser" name="senhaUser" type="password" required><br><br>
-
+           <input id="senhaUser" name="senhaUser" type="password" required>
+        </p>
+        <p>
            <label for="confirmarSenhaUser">Confirme a senha:
            </label><br>
            <input id=”confirmarSenhaUser” name="confirmarSenhaUser"
-           type="password"required><br><br>
-
+           type="password"required>
+        </p>
+        <p>
             <label for="perfilUser">Perfil:</label>
             <select name="perfilUser">
                 <option value="professor">Professor</option>
                 <option value="aluno">Aluno</option>
                 <option value="outro">Outro</option>
-            </select required><br><br>
-            
+            </select required>
+        </p>
+        <p>    
             <button type="button" onclick="location.href='cadastramento.html'">
                 Cadastrar
-            </button><br><br>
-            
+            </button>
+        </p>
+        <p>    
             <button type="button" onclick="location.href='index.html'">
                 Voltar
             </button><br>
+        </p>    
         </fieldset><br>
     </form>                
         </body>
